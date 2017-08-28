@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		825C7C421F4FEF1B00D71E17 /* XCFConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C7C411F4FEF1B00D71E17 /* XCFConst.m */; };
+		825C7C451F4FF90A00D71E17 /* XCFConstRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C7C441F4FF90A00D71E17 /* XCFConstRequest.m */; };
+		825C7C4A1F4FFFFE00D71E17 /* XCFNavContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C7C491F4FFFFE00D71E17 /* XCFNavContent.m */; };
+		825C7C4D1F5016E100D71E17 /* XCFPopEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C7C4C1F5016E100D71E17 /* XCFPopEvents.m */; };
+		825C7C501F50190F00D71E17 /* XCFPopEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C7C4F1F50190F00D71E17 /* XCFPopEvent.m */; };
+		825C7C531F501AFC00D71E17 /* XCFNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C7C521F501AFC00D71E17 /* XCFNav.m */; };
+		825C7C571F50210700D71E17 /* XCFDishNavDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C7C561F50210700D71E17 /* XCFDishNavDetailView.m */; };
+		82BC3BC01F4FB6790079FAC0 /* XCFKitchenHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC3BBF1F4FB6790079FAC0 /* XCFKitchenHeader.m */; };
+		82BC3BC31F4FB6A80079FAC0 /* XCFTopNavImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC3BC21F4FB6A80079FAC0 /* XCFTopNavImageView.m */; };
+		82BC3BC61F4FBF160079FAC0 /* XCFNavButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC3BC51F4FBF160079FAC0 /* XCFNavButton.m */; };
 		82F97AA81F4EE8AF001B06C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F97AA71F4EE8AF001B06C6 /* main.m */; };
 		82F97AAB1F4EE8AF001B06C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F97AAA1F4EE8AF001B06C6 /* AppDelegate.m */; };
 		82F97AAE1F4EE8AF001B06C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F97AAD1F4EE8AF001B06C6 /* ViewController.m */; };
@@ -27,6 +37,26 @@
 
 /* Begin PBXFileReference section */
 		776A677C5DB873312C16159D /* Pods-CHXCFAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHXCFAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHXCFAPP/Pods-CHXCFAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		825C7C411F4FEF1B00D71E17 /* XCFConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFConst.m; sourceTree = "<group>"; };
+		825C7C431F4FF90A00D71E17 /* XCFConstRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFConstRequest.h; sourceTree = "<group>"; };
+		825C7C441F4FF90A00D71E17 /* XCFConstRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFConstRequest.m; sourceTree = "<group>"; };
+		825C7C481F4FFFFE00D71E17 /* XCFNavContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFNavContent.h; sourceTree = "<group>"; };
+		825C7C491F4FFFFE00D71E17 /* XCFNavContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFNavContent.m; sourceTree = "<group>"; };
+		825C7C4B1F5016E100D71E17 /* XCFPopEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFPopEvents.h; sourceTree = "<group>"; };
+		825C7C4C1F5016E100D71E17 /* XCFPopEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFPopEvents.m; sourceTree = "<group>"; };
+		825C7C4E1F50190F00D71E17 /* XCFPopEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFPopEvent.h; sourceTree = "<group>"; };
+		825C7C4F1F50190F00D71E17 /* XCFPopEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFPopEvent.m; sourceTree = "<group>"; };
+		825C7C511F501AFC00D71E17 /* XCFNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFNav.h; sourceTree = "<group>"; };
+		825C7C521F501AFC00D71E17 /* XCFNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFNav.m; sourceTree = "<group>"; };
+		825C7C551F50210700D71E17 /* XCFDishNavDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFDishNavDetailView.h; sourceTree = "<group>"; };
+		825C7C561F50210700D71E17 /* XCFDishNavDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFDishNavDetailView.m; sourceTree = "<group>"; };
+		82BC3BBE1F4FB6790079FAC0 /* XCFKitchenHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFKitchenHeader.h; sourceTree = "<group>"; };
+		82BC3BBF1F4FB6790079FAC0 /* XCFKitchenHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFKitchenHeader.m; sourceTree = "<group>"; };
+		82BC3BC11F4FB6A80079FAC0 /* XCFTopNavImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFTopNavImageView.h; sourceTree = "<group>"; };
+		82BC3BC21F4FB6A80079FAC0 /* XCFTopNavImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFTopNavImageView.m; sourceTree = "<group>"; };
+		82BC3BC41F4FBF160079FAC0 /* XCFNavButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFNavButton.h; sourceTree = "<group>"; };
+		82BC3BC51F4FBF160079FAC0 /* XCFNavButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFNavButton.m; sourceTree = "<group>"; };
+		82BC3BD21F4FCEAD0079FAC0 /* XCFConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFConst.h; sourceTree = "<group>"; };
 		82F97AA31F4EE8AF001B06C6 /* CHXCFAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHXCFAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F97AA71F4EE8AF001B06C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82F97AA91F4EE8AF001B06C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +108,73 @@
 				9FFEFDCA7C2F11E75A7ECF3A /* libPods-CHXCFAPP.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		825C7C471F4FFFF400D71E17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				825C7C541F501BE200D71E17 /* NavModel - 顶部导航数据 */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		825C7C541F501BE200D71E17 /* NavModel - 顶部导航数据 */ = {
+			isa = PBXGroup;
+			children = (
+				825C7C481F4FFFFE00D71E17 /* XCFNavContent.h */,
+				825C7C491F4FFFFE00D71E17 /* XCFNavContent.m */,
+				825C7C511F501AFC00D71E17 /* XCFNav.h */,
+				825C7C521F501AFC00D71E17 /* XCFNav.m */,
+				825C7C4E1F50190F00D71E17 /* XCFPopEvent.h */,
+				825C7C4F1F50190F00D71E17 /* XCFPopEvent.m */,
+				825C7C4B1F5016E100D71E17 /* XCFPopEvents.h */,
+				825C7C4C1F5016E100D71E17 /* XCFPopEvents.m */,
+			);
+			name = "NavModel - 顶部导航数据";
+			sourceTree = "<group>";
+		};
+		828300451F4FA9CA001864EA /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				82BC3BD21F4FCEAD0079FAC0 /* XCFConst.h */,
+				825C7C411F4FEF1B00D71E17 /* XCFConst.m */,
+				825C7C431F4FF90A00D71E17 /* XCFConstRequest.h */,
+				825C7C441F4FF90A00D71E17 /* XCFConstRequest.m */,
+			);
+			name = Const;
+			sourceTree = "<group>";
+		};
+		82BC3BC71F4FC43E0079FAC0 /* Nav - 导航 */ = {
+			isa = PBXGroup;
+			children = (
+				82BC3BBE1F4FB6790079FAC0 /* XCFKitchenHeader.h */,
+				82BC3BBF1F4FB6790079FAC0 /* XCFKitchenHeader.m */,
+				825C7C551F50210700D71E17 /* XCFDishNavDetailView.h */,
+				825C7C561F50210700D71E17 /* XCFDishNavDetailView.m */,
+				82BC3BC11F4FB6A80079FAC0 /* XCFTopNavImageView.h */,
+				82BC3BC21F4FB6A80079FAC0 /* XCFTopNavImageView.m */,
+				82BC3BC41F4FBF160079FAC0 /* XCFNavButton.h */,
+				82BC3BC51F4FBF160079FAC0 /* XCFNavButton.m */,
+			);
+			name = "Nav - 导航";
+			sourceTree = "<group>";
+		};
+		82BC3BC81F4FC4530079FAC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82F97AD51F4EEB85001B06C6 /* XCFKitchenViewController.h */,
+				82F97AD61F4EEB85001B06C6 /* XCFKitchenViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		82BC3BC91F4FC45C0079FAC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82F97AF01F4EFDFE001B06C6 /* Search - 搜索 */,
+				82BC3BC71F4FC43E0079FAC0 /* Nav - 导航 */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		82F97A9A1F4EE8AF001B06C6 = {
@@ -141,7 +238,6 @@
 			isa = PBXGroup;
 			children = (
 				82F97AF41F4EFE32001B06C6 /* Main - 下厨房 */,
-				82F97AF01F4EFDFE001B06C6 /* Search - 搜索 */,
 			);
 			name = "Kitchen - 下厨房";
 			sourceTree = "<group>";
@@ -149,6 +245,7 @@
 		82F97AC11F4EE986001B06C6 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				828300451F4FA9CA001864EA /* Const */,
 				82F97ADC1F4EECC0001B06C6 /* Controller */,
 				82F97AEC1F4EF891001B06C6 /* View */,
 				82F97ADB1F4EECB7001B06C6 /* Category */,
@@ -231,8 +328,9 @@
 		82F97AF41F4EFE32001B06C6 /* Main - 下厨房 */ = {
 			isa = PBXGroup;
 			children = (
-				82F97AD51F4EEB85001B06C6 /* XCFKitchenViewController.h */,
-				82F97AD61F4EEB85001B06C6 /* XCFKitchenViewController.m */,
+				825C7C471F4FFFF400D71E17 /* Model */,
+				82BC3BC81F4FC4530079FAC0 /* Controller */,
+				82BC3BC91F4FC45C0079FAC0 /* View */,
 			);
 			name = "Main - 下厨房";
 			sourceTree = "<group>";
@@ -371,15 +469,25 @@
 			files = (
 				82F97AEF1F4EF8A0001B06C6 /* XCFSearchBar.m in Sources */,
 				82F97AAE1F4EE8AF001B06C6 /* ViewController.m in Sources */,
+				825C7C501F50190F00D71E17 /* XCFPopEvent.m in Sources */,
 				82F97AD41F4EEAA9001B06C6 /* XCFTabBarController.m in Sources */,
+				825C7C4A1F4FFFFE00D71E17 /* XCFNavContent.m in Sources */,
 				82F97ACE1F4EEA7F001B06C6 /* XCFCommunityViewController.m in Sources */,
 				82F97AD71F4EEB85001B06C6 /* XCFKitchenViewController.m in Sources */,
+				82BC3BC01F4FB6790079FAC0 /* XCFKitchenHeader.m in Sources */,
+				82BC3BC31F4FB6A80079FAC0 /* XCFTopNavImageView.m in Sources */,
 				82F97AE71F4EEEA3001B06C6 /* UIBarButtonItem+Extension.m in Sources */,
 				82F97AAB1F4EE8AF001B06C6 /* AppDelegate.m in Sources */,
+				825C7C571F50210700D71E17 /* XCFDishNavDetailView.m in Sources */,
 				82F97AD11F4EEA8F001B06C6 /* XCFMeController.m in Sources */,
+				82BC3BC61F4FBF160079FAC0 /* XCFNavButton.m in Sources */,
 				82F97ACB1F4EEA70001B06C6 /* XCFBazaarController.m in Sources */,
+				825C7C531F501AFC00D71E17 /* XCFNav.m in Sources */,
 				82F97ADA1F4EEBDB001B06C6 /* XCFNavigationController.m in Sources */,
+				825C7C4D1F5016E100D71E17 /* XCFPopEvents.m in Sources */,
+				825C7C421F4FEF1B00D71E17 /* XCFConst.m in Sources */,
 				82F97AF31F4EFE20001B06C6 /* XCFSearchViewController.m in Sources */,
+				825C7C451F4FF90A00D71E17 /* XCFConstRequest.m in Sources */,
 				82F97AA81F4EE8AF001B06C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
